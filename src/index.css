@@ -1,0 +1,398 @@
+* {
+  /* border: 1px solid red; */
+   font-size: 20px;
+   
+}
+
+body {
+   font-size: 20px;
+   width: 100%;
+   margin: 0;
+   font-size: 20px;
+}
+.topbg {
+   background-image: url(mybg.jfif);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+.navbar {
+   background-color: rgba(189, 194, 194, 0.3);
+   display: flex;
+   height: 40px;
+   padding: 10px;
+   justify-content: space-between;
+}
+.fixnav {
+   width: 100%;
+   position: fixed;
+}
+
+.nav {
+   margin-left: 20px;
+   margin-right: 20px;
+   
+}
+
+.rnav {
+   padding: 5px;
+   font-size: 1rem;
+   color: black;
+   text-decoration: none;
+   font-weight: bold;
+   margin: 5px;
+
+}
+.lnav {
+   padding: 5px;
+   font-size: 1.2rem;
+   color: black;
+   text-decoration: none;
+   font-weight: bold;
+   border-radius: 20px;
+   padding: 10px;
+  
+   
+}
+.lnav:hover {
+   transition: 1s;
+   background-color: rgba(37, 110, 72, 0.5); 
+   
+}
+
+.aboutme1 {
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.aboutme1:hover {
+   background-color: rgba(37, 110, 72, 0.5); 
+   transition: 1s;
+}
+.projects1 {
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.projects1:hover {
+   background-color: rgba(37, 110, 72, 0.5); 
+   transition: 1s;
+}
+.resume {
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.resume:hover {
+   background-color: rgba(37, 110, 72, 0.5); 
+   transition: 1s;
+}
+
+.fixcont {
+   font-size: 60px;
+   position: fixed;
+   bottom: 20px;
+   left: 20px;
+   color: rgba(189, 194, 194, 0.7);
+   transition: all 1s;
+   
+}
+
+.fixcont:hover {
+   color:  rgba(14, 84, 38, 1);
+}
+.resume {
+   border: 1px colid black;
+   border-radius: 20px;
+}
+
+.hello {
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+   padding-top: 15%;
+   padding-bottom: 20%;
+   color: rgb(200, 212, 201);
+   /* -webkit-text-stroke: 1px rgb(14, 84, 38); */
+}
+.hello h1{
+  background-color: rgba(123, 103, 64, 0.7);
+}
+.header {
+   text-align: center;
+   margin-top: 20px;
+   width: 100%;
+}
+.content {
+   
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   /* margin-top: 50px; */
+   text-align: center;
+   display: flex;
+
+}
+
+.avatardiv{
+   width: 50%;
+   padding: 40px;
+   
+}
+.avatar {
+   width: 200px;
+   height: 200px;
+   border-radius: 1000px;
+   transition: all 1s;
+}
+.avatar:hover {
+   transform: scale(1.1);
+}
+.infoabout {
+   text-align: left;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   /* padding: 30px; */
+}
+@media screen
+and (max-width: 600px)
+{
+   .avatardiv {
+  display: none;
+  width: 0;
+}
+.content {
+   width: 90%;
+}
+.infoabout {
+   width: 100%;
+  
+}
+}
+.bgproj {
+background-color: rgba(243, 196, 143, 0.4);
+padding: 30px;
+}
+
+.projectsbar {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+}
+
+.proj {
+   width: 250px;
+   height: 150px;
+   margin: 10px;
+}
+
+
+.resumebox {
+   margin-top: 40px;
+}
+
+.resumegrid1 {
+   display: flex;
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid rgba(55, 55, 55, 0,5);
+   font-size: 0.5rem;
+   margin-top: 10px;
+}
+/* .height {
+   height: 1200px;
+} */
+.gt {
+   font-size: 80%;
+}
+
+.row1-1 {
+   width: 20%;
+   border-right: 4px solid rgba(14, 84, 38, 0.7);
+   text-align: right;
+   padding-right: 10px;
+}
+.row1-2 {
+   width: 80%;
+   margin-left: 15px;
+}
+.row2-1 {
+   width: 20%;
+   border-right: 4px solid rgba(14, 84, 38, 0.7);
+   text-align: right;
+   padding-right: 10px;
+}
+.row2-2 {
+   width: 26.6%;
+   margin-left: 15px;
+}
+.row2-3 {
+   width: 26.6%;
+   border-left: 1px solid rgba(14, 84, 38, 0.7);  
+   padding-left: 10px;  
+}
+
+.row2-4 {
+   width: 26.6%;
+   border-left: 1px solid rgba(14, 84, 38, 0.7);
+   padding-left: 10px;  
+}
+.row3-1 {
+   width: 20%;
+   border-right: 4px solid rgba(14, 84, 38, 0.7);
+   text-align: right;
+   padding-right: 10px;
+}
+.row3-2 {
+   width: 80%;
+   margin-left: 15px;
+}
+
+@media screen
+and (max-width: 600px)
+{
+   .resumegrid1 {
+       display: flex;
+       width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+       border: 1px solid rgba(55, 55, 55, 0,5);
+       font-size: 0.5rem;
+       margin-top: 10px;
+   }
+   .row1-1 {
+       width: 15%;
+       border-right: 4px solid rgba(14, 84, 38, 0.7);
+       text-align: right;
+       padding-right: 10px;
+   }
+   .row1-2 {
+       width: 80%;
+       margin-left: 15px;
+   }
+   .row2-1 {
+       width: 15%;
+       border-right: 4px solid rgba(14, 84, 38, 0.7);
+       text-align: right;
+       padding-right: 10px;
+   }
+   .row2-2 {
+       width: 26.6%;
+       margin-left: 15px;
+   }
+   .row2-3 {
+       width: 26.6%;
+       border-left: 1px solid rgba(14, 84, 38, 0.7);  
+       padding-left: 10px;  
+   }
+   
+   .row2-4 {
+       width: 26.6%;
+       border-left: 1px solid rgba(14, 84, 38, 0.7);
+       padding-left: 10px;  
+   }
+   .row3-1 {
+       width: 15%;
+       border-right: 4px solid rgba(14, 84, 38, 0.7);
+       text-align: right;
+       padding-right: 2px;
+       margin-left: 0;
+   }
+   .row3-2 {
+       width: 80%;
+       margin-left: 15px;
+   }
+   .gt1 {
+       writing-mode: vertical-lr;
+   text-orientation: upright;
+   }
+}
+.cont {
+   border-top: 2px solid rgba(14, 84, 38, 0.7);
+}
+.contacts {
+    width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   /* margin-top: 50px; */
+   text-align: center;
+   display: flex;
+   /* margin-top: 50px;
+   margin-bottom: 50px; */
+
+
+}
+.socmed {
+   width: 50%;
+/* padding: 50px; */
+}
+
+.getintouch {
+   width: 50%;
+   padding: 30px;
+   border-left: 2px solid rgba(14, 84, 38, 0.3);
+
+}
+
+.linkpic {
+   color: black;
+   font-size: 40px;
+   margin: 10px;
+   padding: 5px;
+}
+
+.puttext {
+   width: 90%px;
+   height: 100px;
+   border-radius: 20px;
+   border: 3px solid rgba(14, 84, 38, 0.5);
+   margin-bottom: 15px;
+}
+
+.sendbutton {
+   border: 2px solid rgba(14, 84, 38, 0.5);
+   border-radius: 20px;
+   padding: 7px;
+   background-color: rgb(200, 212, 201);
+   font-weight: bolder;
+}
+
+@media screen
+and (max-width: 600px)
+{
+   .socmed {
+       width: 90%;
+   /* padding: 50px; */
+   margin-left: auto;
+   margin-right: auto;
+   }
+   
+   .getintouch {
+       width: 90%;
+       margin-left: auto;
+   margin-right: auto;
+   
+   }
+   .contacts {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-top: auto;
+}
+.getintouch {
+   padding-top: 20px;
+   border-top: 2px solid rgba(14, 84, 38, 0.5);
+}
+}
+.sm-icon {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
